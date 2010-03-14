@@ -1,0 +1,3 @@
+This program scans and parses AA reports automatically, to generate a relationship graph based on same-team frequency. With the graph you can find in-house groups easily. Here is an example of the ID YamateH with threshold of 5 games:
+
+!http://github.com/zellux/aa-relationship-tracker/raw/master/YamateH.gif!
