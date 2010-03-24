@@ -11,9 +11,7 @@ counter = {}
 playertime = {}
 lower2normal = {} # ID case record
 
-# hiddenlist = ('hypercall', 'arieshout', 'kevinqjw', 'myonlystar', 'liyue', '17689', 'drizzt', 'lenultiss')
-
-hiddenlist = ()  # Hidden id list
+hiddenlist = ()  # IDs in this list will be ignored in search
               
 playerset = set()
 
@@ -145,7 +143,7 @@ if __name__ == '__main__':
 
 #    playerset.difference_update(set(hiddenlist))
 
-    explore('vigoss_k', playerset)
+    explore('YamateH', playerset)
 
-    genDot(counter, playerset, outputDot, 'vigoss_k')
+    genDot(counter, playerset, outputDot, 'YamateH')
 
